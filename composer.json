@@ -1,0 +1,12 @@
+{
+    "name": "tcp/test",
+    "description": "TCP connection",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "app"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4"
+    }
+}
